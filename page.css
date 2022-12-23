@@ -1,0 +1,245 @@
+body {
+  background-color: gray;
+}
+
+h1 {
+  color: black;
+  margin-left: 20px;
+}
+
+h2 {
+  color: blue;
+
+}
+
+h3 {
+    font-size: 50px;
+    margin:auto
+}
+.box{
+  padding: 10px;
+  margin-top: 1%;
+  width: 40%;
+  height: 9%;
+  border: 2px double black;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  text-align:center;
+  vertical-align:middle;
+}
+.box_animated_ltor{
+  animation-name: han_anmiation_ltor;
+  position: relative;
+  animation-duration: 1s;
+  padding: 10px;
+  margin-top: 1%;
+  width: 40%;
+  height: 9%;
+  border: 2px double black;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  text-align:center;
+  vertical-align:middle;
+}
+.box_animated_rtol{
+  animation-name: han_anmiation_rtol;
+  position: relative;
+  animation-duration: 1s;
+  padding: 10px;
+  margin-top: 1%;
+  width: 40%;
+  height: 9%;
+  border: 2px double black;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  text-align:center;
+  vertical-align:middle;
+}
+@keyframes han_anmiation_ltor{
+  0%   {background-color:black; left: -1000px; top:0px;}
+  100% {background-color: white; left:0px; top:0px;}
+}
+@keyframes han_anmiation_rtol{
+  0%   {background-color:black; left: 1000px; top:0px;}
+  100% {background-color: white; left:0px; top:0px;}
+}
+
+.logo_contact{
+  display: block;
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+  border: 3px solid rgba(0, 0, 0, 0.05);
+  border-radius: 50%;
+  align-items: center;
+  position: relative;
+  display: inline;
+  overflow: hidden;
+}
+.logo_contact:hover{
+  display: block;
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+  border: 3px solid black;
+  border-radius: 50%;
+  align-items: center;
+  position: relative;
+  display: inline;
+  overflow: hidden;
+}
+.logo{
+  display: block;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+  border: 3px solid rgba(0, 0, 0, 0.05);
+  border-radius: 50%;
+  align-items: center;
+  position: relative;
+  display: inline;
+  overflow: hidden;
+}
+.logo:hover{
+  display: block;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+  border: 3px solid black;
+  border-radius: 50%;
+  align-items: center;
+  position: relative;
+  display: inline;
+  overflow: hidden;
+}
+.logo_download{
+  display: block;
+  width: 30px;
+  height: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  border: 3px solid lightblue;
+  border-radius: 50%;
+  align-items: center;
+  position: relative;
+}
+.logo_download:hover{
+  display: block;
+  width: 30px;
+  height: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  border: 3px solid black;
+  border-radius: 50%;
+  align-items: center;
+  position: relative;
+}
+.bottom{
+  background-color: gray;
+}
+
+.bio{
+  margin: auto;
+  width: 50%;
+  text-align: justify-all;
+  letter-spacing: 1px;
+}
+
+p {
+color: red;
+text-decoration: underline;
+}
+
+p1{
+
+}
+
+p2{
+color: gray;
+}
+p3{
+  font-family: "Times New Roman";
+}
+
+p4{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+/* Style the element with the id "myHeader" */
+#myHeader {
+  background-color: #FFFFFF;
+  color: black;
+  padding: 40px;
+  text-align: center;
+}
+
+/* Style all elements with the class name "city" */
+.city {
+  background-color: tomato;
+  color: white;
+  padding: 10px;
+}
+
+.navbar{
+  background-color: white;
+  font-size: 20px;
+}
+
+.header{
+  background-color: lightblue;
+  text-align: center;
+  height: 50%;
+  padding-top:30px;
+  padding-bottom:30px;
+  
+  margin: none;
+}
+
+#img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#ulDefault {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+
+
+#liDefault {
+  margin: auto;
+  font-size: 20;
+  display: inline;
+  padding: 8px;
+  border: 2px solid black;
+  border-radius: 10%;
+  background-color: #dddddd;
+}
+#liDefault:hover{
+  margin: auto;
+  font-size: 20;
+  display: inline;
+  background-color: lightblue;
+}
+
+.img_crop_circle{
+  display: block;
+  width: 180px;
+  height: 180px;
+  overflow: hidden;
+  border: 9px solid rgba(0, 0, 0, 0.05);
+  border-radius: 50%;
+  margin: 0 auto;
+}
