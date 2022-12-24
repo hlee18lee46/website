@@ -192,15 +192,19 @@ p4{
   background-color: white;
   font-size: 20px;
 }
+.separator{
+  background-color: white;
+  font-size: 20px;
+}
 
 .header{
-  background-color: lightblue;
+  background-image: url('coding.jpg');
+  background-size: cover;
   text-align: center;
   height: 50%;
   padding-top:30px;
   padding-bottom:30px;
-  
-  margin: none;
+  margin: auto;
 }
 
 #img {
@@ -216,7 +220,10 @@ p4{
   text-align: center;
 }
 
-
+img.make-it-fit {
+  max-width: 99%;
+  max-height: 99%;
+}
 
 #liDefault {
   margin: auto;
@@ -233,7 +240,6 @@ p4{
   display: inline;
   background-color: lightblue;
 }
-
 .img_crop_circle{
   display: block;
   width: 180px;
